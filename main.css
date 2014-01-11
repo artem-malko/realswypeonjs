@@ -1,0 +1,35 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 10px;
+	border: 10px solid #c00;
+}
+
+
+/* Обязательные стили */
+.rs-menu {
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	position: fixed;
+	display: block;
+	top: 0;
+
+	left: -400px;
+	width: 420px;
+
+	height: 100%;
+	min-height: 100%;
+	
+	padding: 0px 20px 0px 20px;
+	background: #00815D;
+	
+	overflow: hidden;
+	overflow-y: auto;
+	z-index: 999;
+}

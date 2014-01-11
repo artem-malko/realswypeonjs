@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Real Swype on JS</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="realSwype.js"></script>
+</head>
+<body id="body">
+
+	<div class="rs-menu">
+		<ul>
+			<li>Пукнт меню</li>
+			<li>Пукнт меню</li>
+			<li>Пукнт меню</li>
+			<li>Пукнт меню</li>
+			<li>Пукнт меню</li>
+			<li>Пукнт меню</li>
+		</ul>
+	</div>
+
+	<div class="rs-main-content">
+		<h1>Основной контент</h1>
+
+		<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+
+		<span>qwe</span>
+	</div>
+
+	<script>
+		$( function() {
+			new realSwype($('.rs-menu'));
+		});
+	</script>
+
+</body>
+</html>
